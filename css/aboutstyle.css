@@ -1,0 +1,141 @@
+body {
+	background-color: #dd8e22;
+}
+
+ #about-img {
+ 	width: 600px;
+ 	position: absolute;
+ 	top: -7%;
+ 	left: 0%;
+ 	z-index: -1;
+ }
+
+ #nav-bar {
+ 	display: flex;
+ 	flex-direction: row;
+ 	left: 60%;
+ 	top: 35px;
+ 	height: 200px;
+ 	position: absolute;
+ }
+
+ #highlight {
+ 	width: 90px;
+ 	height: 90px;
+ 	border:3px solid white;   
+ 	background-color: transparent;
+ 	position: absolute;
+ 	border-radius: 50%;
+ 	left: 3.5%;
+ 	top: 8.5%;
+ 	z-index: -1;
+ }
+
+ #about {
+ 	width: 130px;
+ 	height: 130px;
+ }
+
+ #design {
+ 	width: 130px;
+ 	height: 130px;
+
+ }
+
+  #photos {
+ 	width: 130px;
+ 	height: 130px;
+
+
+ }
+   #resume {
+ 	width: 130px;
+ 	height: 130px;
+ }
+
+#white-1 {
+ 	width: 480px;
+ 	height: 500px;
+ 	background-color: #ffffff;
+ 	position: absolute;
+ 	top: 43%;
+ 	left: 0%;
+ 	bottom: 0%;
+ 	animation: slide 2s infinite;
+ }
+
+ @keyframes slide {
+ 	0%{transform: translateX(0px);}
+ 	50%{transform: translateX(-100px);}
+ 	100%{transform: translateX(0px);}
+ }
+
+ #white-2 {
+ 	width: 600px;
+ 	height: 554px;
+ 	background-color: #ffffff;
+ 	position: absolute;
+ 	top: 70%;
+ 	left: 0%;
+ 	bottom: 0%;
+ 	
+ }
+
+
+#orangebounce {
+	width: 800px;
+ 	height: 204px;
+ 	background-color: #dd8e22;
+ 	position: absolute;
+ 	top: 60%;
+ 	left: 20%;
+ 	bottom: 0%;
+	animation: bounce 2s infinite;
+
+
+}
+
+  @keyframes bounce {
+ 	0%{transform: translateY(-100px);}
+ 	50%{transform: translateY(0);}
+ 	100%{transform: translateY(-100px);}
+ }
+
+ #black {
+ 	width: 575px;
+ 	height: 731px;
+ 	background-color: #000000;
+ 	position: absolute;
+ 	top: 46%;
+ 	left: 0%;
+ 	bottom: 0%;
+ }
+
+ #selfie {
+ 	width: 550px;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 0%;
+ 	bottom: 100%;
+ }
+
+ h {
+ 	position: absolute;
+ 	width: 500px;
+ 	font-family: 'Roboto', sans-serif;
+ 	color: white;
+ 	font-size: 68pt;
+ 	top: 50%;
+ 	left: 50%;
+ }
+
+ p {
+ 	position: absolute;
+ 	width: 500px;
+ 	font-family: 'Roboto', sans-serif;
+ 	color: white;
+ 	top: 63%;
+ 	left: 50%;
+ 	font-size: 12pt;
+ }
+

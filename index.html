@@ -1,6 +1,36 @@
-<doctype HTML>
-<head></head>
-<body>
-Hello World.
-</body>
-</HTMl>
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id = "welcome">
+			<img id="welcome-img" src="assets/img/intro.png">
+		    <img id = "world" src="assets/img/world.png" 
+		    onmouseover="this.src='assets/img/orangerealworld.png'"
+		    onmouseout="this.src='assets/img/world.png'"
+		    border="0" alt=""/>
+		</div>
+		<div class = "outtercircle" id = "outtercircle"></div>
+		<div class = "secondouttercircle" id = "secondouttercircle"></div>
+		<div class = "thirdouttercircle" id = "thirdouttercircle"></div>
+		<div class = "menu" id = "menu" >
+			<a href="aboutme.html">
+				<img id="about" src="assets/img/abouttext.png" class="menu-item" >
+			</a>
+			<a href="photospage.html">
+				<img id="photos" src="assets/img/photostext.png" class="menu-item">
+			</a>
+			<a href="design.html">
+				<img id="design" src="assets/img/designtext.png" class="menu-item">
+			</a>
+			<a href="Resume_Samantha-Lee.pdf">
+				<img id="resume" src="assets/img/resumetext.png" class="menu-item">
+			</a>
+		</div>
+	</body>
+	<script src="js/script.js"></script>
+</html>

@@ -1,0 +1,155 @@
+
+
+
+#welcome-img {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	width: 700px;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+
+#world {
+	position: absolute;
+	left: 35%;
+	top: 45%;
+	width: 400px;
+	z-index: 1;
+	border-radius: 50%;
+  	-webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    cursor: pointer;
+    transition: 0.7s;
+    z-index: 0;
+
+}
+
+#world:hover{
+	width: 400px;
+	-webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+
+/*.outtercircle {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	transform: scale(0);
+	top: 42%;
+	bottom: 0;
+	left: 0;
+	right: 1.7%;
+	margin: auto;
+	position: absolute;
+	z-index: -2;
+	border: 1px dashed rgba(0,0,0,.1);
+	transition: 0.7s;
+	animation-name: rotate;
+	animation-duration: infiite;
+	animation-timing-function: linear;
+}*/
+
+.secondouttercircle {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	transform: scale(0);
+	top: 42%;
+	bottom: 0;
+	left: 0;
+	right: 1.7%;
+	margin: auto;
+	position: absolute;
+	z-index: -3;
+	border: 1px dashed rgba(0,0,0,.1);
+	transition: 0.7s;
+}
+
+/*.thirdouttercircle {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	transform: scale(0);
+	top: 42%;
+	bottom: 0;
+	left: 0;
+	right: 1.7%;
+	margin: auto;
+	position: absolute;
+	z-index: -3;
+	border: 1px dashed rgba(0,0,0,.1);
+	transition: 0.7s;
+}*/
+
+.menu {
+	height: 105px;
+	width: 105px;
+	border-radius: 50%;
+	transform: scale(0);
+	top: 42%;
+	bottom: 0;
+	left: 0;
+	right: 1.7%;
+	margin: auto;
+	position: absolute;
+	z-index: -1;
+	border: 1px dashed rgba(0,0,0,.1);
+	transition: 0.7s;
+
+}
+
+.menu-item{
+	width: 40px;
+	position: absolute;
+	transition: 0.4s;
+}
+
+#resume{
+	top: 27%;
+	left: 125%;
+}
+
+#resume:hover{
+    cursor: pointer;
+}
+
+#about {
+	top: 27%;
+	left: -65%;
+	z-index: 5;
+	position: relative;
+}
+
+#about:hover{
+    cursor: pointer;
+}
+
+#design {
+	top: 27%;
+	left: -20%;
+}
+
+#design:hover{
+    cursor: pointer;
+}
+
+#photos {
+	top: 27%;
+	left: 79%;
+}
+
+#photos:hover{
+    cursor: pointer;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+/*/
